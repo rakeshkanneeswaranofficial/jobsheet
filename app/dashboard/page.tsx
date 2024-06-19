@@ -29,6 +29,9 @@ const ClothTrackingApp: React.FC = () => {
         setMatching({ ...matching, [key]: value });
     };
 
+
+
+    
     const handleColorChange = (colorIndex: number, key: string, value: string) => {
         const updatedColors = [...matching.colors];
         updatedColors[colorIndex][key] = value;
